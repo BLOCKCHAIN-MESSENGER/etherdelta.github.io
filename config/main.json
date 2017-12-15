@@ -11,8 +11,8 @@
   ],
   "ethTestnet": false,
   "ethChainId": 1,
-  "ethProvider": "http://localhost:8545",
-  "ethGasPrice": 4000000000,
+  "ethProvider": "https://geth.debitcoin.io/",
+  "ethGasPrice": 5000000000,
   "ethAddr": "0x0000000000000000000000000000000000000000",
   "ethAddrPrivateKey": "",
   "gasApprove": 250000,
@@ -32,6 +32,7 @@
   ],
   "tokens": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 },
+    { "addr": "0x95408930d6323ac7aa69e6c2cbfe58774d565fa8", "name": "DBC", "decimals": 8 },
     { "addr": "0xd8912c10681d8b21fd3742244f44658dba12264e", "name": "PLU", "decimals": 18 },
     { "addr": "0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7", "name": "1ST", "decimals": 18 },
     { "addr": "0x936f78b9852d12f5cb93177c1f84fb8513d06263", "name": "GNTW", "decimals": 18 },
@@ -714,5 +715,5 @@
     { "addr": "0x27f610bf36eca0939093343ac28b1534a721dbb4", "name": "WAND", "decimals": 18 },
     { "addr": "0xe0c21b3f45fea3e5fdc811021fb1f8842caccad2", "name": "BITC", "decimals": 0 }
   ],
-  "defaultPair": { "token": "PPT", "base": "ETH" }
+  "defaultPair": { "token": "DBC", "base": "ETH" }
 }
